@@ -1,0 +1,85 @@
+:root {
+  --color0: #FFEC92;
+  --color1: #FDBA44;
+  --color2: #FFBF86;
+  --color3: #F2684A;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--color2);
+  background-image: url(../Imagenes/Charizard-fondo.png), url(../Imagenes/FondoCharizard.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Card {
+  background-color: white;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.696);
+  overflow: hidden;
+}
+.Card_Footer {
+  display: flex;
+  justify-content: space-around;
+}
+.Card_Footer_Poder {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.Card_Footer_Resistencia {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.Card_Footer_Bonus {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.Card_header {
+  width: 100%;
+  display: block;
+}
+.Card_body {
+  flex-direction: column;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  border-bottom: 1px solid var(--color3);
+}
+.Card_body_contenidoimg {
+  border: 5px solid #F2684A;
+  border-radius: 50%;
+  background-color: #FFBF86;
+  box-shadow: 0px -10px 20px #F2684A;
+  margin-top: -70px;
+}
+.Card_body_contenidoimg_img {
+  padding: 20px;
+}
+.Card_body_title {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.Card_body_title span {
+  color: #F2684A;
+}/*# sourceMappingURL=Estilos.css.map */
